@@ -8,13 +8,9 @@ layout: default
     <div class="post-meta">
       <img src="/images/calendar.png" width="20px"/> 
       <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time>  
-       <div class = "tag-img-icon">
-          <img src="/images/tag-icon.svg" width="20px" /> 
-       </div>
-       <a href="/tags">
-        <div class = "post-list-icon-mate">
-          <span class="post-list__meta--tags-right">{{ page.tag }}</span>
-        </div>
+      <img src="/images/tag-icon.svg" width="20px" /> 
+      <a href="/tags">
+      <span class="post-list__meta--tags-right">{{ page.tag }}</span>
       <span id="busuanzi_container_page_pv"> | 阅读：<span id="busuanzi_value_page_pv"></span>次</span>
     </p>
     </div>
