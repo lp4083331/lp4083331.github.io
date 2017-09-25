@@ -449,7 +449,7 @@ img::-moz-selection {
     /*margin-right: .5em; */
   }
 
-/*  .post-meta__tags {
+  .post-meta__tags {
     margin-left: .2em; 
     background-color: #efefef;
     border-width: 1px;
@@ -457,7 +457,7 @@ img::-moz-selection {
     color: #333;
     font-size: 2.0em;
   }
-*/
+
  /* .post-meta__author {
     margin-left: 1.5em; 
   }
